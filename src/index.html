@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>PT-80 Excuse Generator Javascript</script> </title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -15,19 +15,26 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container bg-sm " id="cardOne" >
+
+      <div class="card text-center border-danger w-70 h-900 ">
+        <div class="card-header bg-danger border-danger ">
+          <h1>Javascript Excuse Generator</h1>
+          
+        </div>
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-danger">Click Bellow to Generate excuse</h5>
+          <p id="excuse" class="text-light "> </p>
+          <button class="btn btn-danger" onclick="location.reload()">
+            Generate Excuse
+          </button>
+        </div>
+        <div class="card-footer text-body-secondary border-danger bg-danger">
+         <disable>  <h3> &nbsp; </h3>     </disable>
+        </div>
       </div>
     </div>
+  
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>

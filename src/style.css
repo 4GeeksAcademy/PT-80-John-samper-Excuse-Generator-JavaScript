@@ -1,5 +1,12 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: linear-gradient(to bottom right, #FF416C, #FF4B2B) ;
+    background-repeat: no-repeat;
+    height: 1000px;
+
+}
+
+#cardOne{
+    margin-top: 200px;
 }
