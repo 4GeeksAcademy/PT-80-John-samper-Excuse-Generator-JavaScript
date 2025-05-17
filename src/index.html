@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/img/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PT-80 Excuse Generator Javascript</script> </title>
+      <meta charset="UTF-8" />
+      <link rel="icon" href="./assets/img/4geeks.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>PT-80 Excuse Generator Javascript</script> </title>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+      <!-- Fontawesome is our recomended library for icons -->
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous"
+      />
   </head>
   <body>
     <div class="container bg-sm " id="cardOne" >
@@ -20,17 +20,20 @@
       <div class="card text-center border-danger w-70 h-900 ">
         <div class="card-header bg-danger border-danger ">
           <h1>Javascript Excuse Generator</h1>
-          
         </div>
+
         <div class="card-body bg-dark">
           <h5 class="card-title text-danger">Click Bellow to Generate excuse</h5>
+    <!-- the  <p> tag with the id excuse is being used ton call the funtion in java script. -->
           <p id="excuse" class="text-light "> </p>
+    <!-- onclick="location.reload() lets us reload the page by presing/clicking the button  -->
           <button class="btn btn-danger" onclick="location.reload()">
             Generate Excuse
           </button>
         </div>
+    <!-- the lest us have the footer empty but behave as if there were text inside. -->
         <div class="card-footer text-body-secondary border-danger bg-danger">
-         <disable>  <h3> &nbsp; </h3>     </disable>
+          <disable>  <h3> &nbsp; </h3>     </disable>
         </div>
       </div>
     </div>
